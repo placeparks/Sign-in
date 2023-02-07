@@ -1,0 +1,176 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: linear-gradient(to right top, #afcaf2, #94ddf7, #93ece7, #b6f5cc, #ecf8b5);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+   background-position: fixed;
+  }
+ 
+  .page h1{
+  display: inline-block;
+    margin-left: 550px;
+    margin-top: 200px;
+  }
+.page h3{
+  margin-left: 630px;
+}
+.btn-mint, .btn-ipfs, .btn-gallery, .btn-home{
+  width: 170px;
+height: 50px;
+color: #fff;
+border-radius: 20px;
+padding: 10px 25px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+outline: none;
+overflow: hidden;
+margin-left: 200px;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+
+.btn-mint{
+  margin-top: 40px;
+  margin-left:550px ;
+}
+.btn-gallery{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.btn-ipfs{
+  margin-top: 40px;
+  margin-left: 550px;
+}
+.btn-home{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.btn-gallery:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-ipfs:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-mint:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-home:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(51, 58, 158);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.twitter{
+  padding-right: 20px;
+  
+  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .text-front{
+    margin-top: 180px;
+    margin-left: 40px;
+    font-size: 26px;
+    font-weight: 700;
+  
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 58, 158);
+    color: white;
+    text-align: center;
+    font-size: 27px;
+  }
+  .page h1{
+    display: inline-block;
+      margin-left: 45px;
+      margin-top: 120px;
+    }
+  .page h3{
+    margin-left: 130px;
+  }
+  .btn-mint, .btn-ipfs, .btn-gallery, .btn-home{
+    width: 170px;
+  height: 50px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  overflow: hidden;
+  margin-left: 200px;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  }
+  
+  .btn-mint{
+    margin-top: 10px;
+    margin-left:170px ;
+  }
+  .btn-gallery{
+    margin-top: 30px;
+    margin-left: 170px;
+  }
+  .btn-ipfs{
+    margin-top: 40px;
+    margin-left: 170px;
+  }
+  .btn-home{
+    margin-top: 40px;
+    margin-left: 170px;
+  }
+  .btn-gallery:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .btn-ipfs:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .btn-mint:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .btn-home:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+}
